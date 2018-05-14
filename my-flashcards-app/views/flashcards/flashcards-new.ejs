@@ -1,0 +1,16 @@
+<% include ../partials/boilerplate %>
+
+    <div class="form-page">
+        <div class="add">
+            <form action="/flashcards" method="POST">
+                <input type="text" name="question" value=""/>
+                <input type="text" name="answer" value=""/>
+                <input type="text" name="category" value=""/>
+                <input type="text" name="difficulty" value=""/>
+                <input type="submit" value="Add it!"/>
+            </form>
+        </div>
+        <a href="/flashcards">Back to all flashcards</a>
+    </div>
+
+<% include ../partials/end %>
